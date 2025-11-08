@@ -44,8 +44,8 @@ public class GroceryManagerApp {
                     } else {
                         System.out.println("Your Grocery List:");
                         String[] items = groceryList.split(";");
-                        for (int i = 0; i < items.length; i++) {
-                            System.out.println((i + 1) + ". " + items[i]);
+                        for (int index = 0; index < items.length; index++) {
+                            System.out.println((index + 1) + ". " + items[index]);
                         }
                     }
                     break;
